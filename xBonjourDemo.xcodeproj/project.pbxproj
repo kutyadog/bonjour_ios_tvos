@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B06A0FA11BD6CE2000E5413B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FA01BD6CE2000E5413B /* AppDelegate.swift */; };
+		B06A0FA31BD6CE2000E5413B /* ClientVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FA21BD6CE2000E5413B /* ClientVC.swift */; };
+		B06A0FA61BD6CE2000E5413B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06A0FA41BD6CE2000E5413B /* Main.storyboard */; };
+		B06A0FA81BD6CE2000E5413B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06A0FA71BD6CE2000E5413B /* Assets.xcassets */; };
+		B06A0FAB1BD6CE2000E5413B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06A0FA91BD6CE2000E5413B /* LaunchScreen.storyboard */; };
+		B06A0FB31BD6CE5E00E5413B /* BonjourClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB21BD6CE5D00E5413B /* BonjourClient.swift */; };
+		B06A0FB51BD6CE6400E5413B /* BonjourServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB41BD6CE6400E5413B /* BonjourServer.swift */; };
+		B06A0FB91BD6CE8B00E5413B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB81BD6CE8B00E5413B /* GCDAsyncSocket.m */; };
+		B06A0FBB1BD6CED900E5413B /* ServerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FBA1BD6CED900E5413B /* ServerVC.swift */; };
+		B06A0FC51BD6CFE600E5413B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FC41BD6CFE600E5413B /* AppDelegate.swift */; };
+		B06A0FC71BD6CFE600E5413B /* TvServerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FC61BD6CFE600E5413B /* TvServerVC.swift */; };
+		B06A0FCA1BD6CFE600E5413B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B06A0FC81BD6CFE600E5413B /* Main.storyboard */; };
+		B06A0FCC1BD6CFE600E5413B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B06A0FCB1BD6CFE600E5413B /* Assets.xcassets */; };
+		B06A0FD11BD6D04F00E5413B /* BonjourServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB41BD6CE6400E5413B /* BonjourServer.swift */; };
+		B06A0FD21BD6D05200E5413B /* BonjourClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB21BD6CE5D00E5413B /* BonjourClient.swift */; };
+		B06A0FD31BD6D0D200E5413B /* bonjour-demo-ios-bridging-header.h in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB61BD6CE8B00E5413B /* bonjour-demo-ios-bridging-header.h */; };
+		B06A0FD41BD6D0D200E5413B /* GCDAsyncSocket.h in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB71BD6CE8B00E5413B /* GCDAsyncSocket.h */; };
+		B06A0FD51BD6D0D200E5413B /* GCDAsyncSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FB81BD6CE8B00E5413B /* GCDAsyncSocket.m */; };
+		B06A0FD71BD6D51700E5413B /* Dot.swift in Sources */ = {isa = PBXBuildFile; fileRef = B06A0FD61BD6D51700E5413B /* Dot.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B06A0F9D1BD6CE2000E5413B /* xBonjourDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xBonjourDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A0FA01BD6CE2000E5413B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B06A0FA21BD6CE2000E5413B /* ClientVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientVC.swift; sourceTree = "<group>"; };
+		B06A0FA51BD6CE2000E5413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B06A0FA71BD6CE2000E5413B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06A0FAA1BD6CE2000E5413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B06A0FAC1BD6CE2000E5413B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06A0FB21BD6CE5D00E5413B /* BonjourClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourClient.swift; sourceTree = "<group>"; };
+		B06A0FB41BD6CE6400E5413B /* BonjourServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BonjourServer.swift; sourceTree = "<group>"; };
+		B06A0FB61BD6CE8B00E5413B /* bonjour-demo-ios-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "bonjour-demo-ios-bridging-header.h"; sourceTree = "<group>"; };
+		B06A0FB71BD6CE8B00E5413B /* GCDAsyncSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncSocket.h; sourceTree = "<group>"; };
+		B06A0FB81BD6CE8B00E5413B /* GCDAsyncSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncSocket.m; sourceTree = "<group>"; };
+		B06A0FBA1BD6CED900E5413B /* ServerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServerVC.swift; sourceTree = "<group>"; };
+		B06A0FC21BD6CFE600E5413B /* tvBonjour.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tvBonjour.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B06A0FC41BD6CFE600E5413B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B06A0FC61BD6CFE600E5413B /* TvServerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TvServerVC.swift; sourceTree = "<group>"; };
+		B06A0FC91BD6CFE600E5413B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B06A0FCB1BD6CFE600E5413B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B06A0FCD1BD6CFE600E5413B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B06A0FD61BD6D51700E5413B /* Dot.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dot.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B06A0F9A1BD6CE2000E5413B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A0FBF1BD6CFE600E5413B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B06A0F941BD6CE2000E5413B = {
+			isa = PBXGroup;
+			children = (
+				B06A0F9F1BD6CE2000E5413B /* xBonjourDemo */,
+				B06A0FC31BD6CFE600E5413B /* tvBonjour */,
+				B06A0F9E1BD6CE2000E5413B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B06A0F9E1BD6CE2000E5413B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B06A0F9D1BD6CE2000E5413B /* xBonjourDemo.app */,
+				B06A0FC21BD6CFE600E5413B /* tvBonjour.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B06A0F9F1BD6CE2000E5413B /* xBonjourDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B06A0FA01BD6CE2000E5413B /* AppDelegate.swift */,
+				B06A0FBC1BD6CF2300E5413B /* Client */,
+				B06A0FBD1BD6CF3100E5413B /* Server */,
+				B06A0FA41BD6CE2000E5413B /* Main.storyboard */,
+				B06A0FD61BD6D51700E5413B /* Dot.swift */,
+				B06A0FA71BD6CE2000E5413B /* Assets.xcassets */,
+				B06A0FB61BD6CE8B00E5413B /* bonjour-demo-ios-bridging-header.h */,
+				B06A0FB71BD6CE8B00E5413B /* GCDAsyncSocket.h */,
+				B06A0FB81BD6CE8B00E5413B /* GCDAsyncSocket.m */,
+				B06A0FA91BD6CE2000E5413B /* LaunchScreen.storyboard */,
+				B06A0FAC1BD6CE2000E5413B /* Info.plist */,
+			);
+			path = xBonjourDemo;
+			sourceTree = "<group>";
+		};
+		B06A0FBC1BD6CF2300E5413B /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				B06A0FB21BD6CE5D00E5413B /* BonjourClient.swift */,
+				B06A0FA21BD6CE2000E5413B /* ClientVC.swift */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
+		B06A0FBD1BD6CF3100E5413B /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				B06A0FB41BD6CE6400E5413B /* BonjourServer.swift */,
+				B06A0FBA1BD6CED900E5413B /* ServerVC.swift */,
+			);
+			name = Server;
+			sourceTree = "<group>";
+		};
+		B06A0FC31BD6CFE600E5413B /* tvBonjour */ = {
+			isa = PBXGroup;
+			children = (
+				B06A0FC41BD6CFE600E5413B /* AppDelegate.swift */,
+				B06A0FC61BD6CFE600E5413B /* TvServerVC.swift */,
+				B06A0FC81BD6CFE600E5413B /* Main.storyboard */,
+				B06A0FCB1BD6CFE600E5413B /* Assets.xcassets */,
+				B06A0FCD1BD6CFE600E5413B /* Info.plist */,
+			);
+			path = tvBonjour;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B06A0F9C1BD6CE2000E5413B /* xBonjourDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06A0FAF1BD6CE2000E5413B /* Build configuration list for PBXNativeTarget "xBonjourDemo" */;
+			buildPhases = (
+				B06A0F991BD6CE2000E5413B /* Sources */,
+				B06A0F9A1BD6CE2000E5413B /* Frameworks */,
+				B06A0F9B1BD6CE2000E5413B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = xBonjourDemo;
+			productName = xBonjourDemo;
+			productReference = B06A0F9D1BD6CE2000E5413B /* xBonjourDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B06A0FC11BD6CFE600E5413B /* tvBonjour */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B06A0FCE1BD6CFE600E5413B /* Build configuration list for PBXNativeTarget "tvBonjour" */;
+			buildPhases = (
+				B06A0FBE1BD6CFE600E5413B /* Sources */,
+				B06A0FBF1BD6CFE600E5413B /* Frameworks */,
+				B06A0FC01BD6CFE600E5413B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tvBonjour;
+			productName = tvBonjour;
+			productReference = B06A0FC21BD6CFE600E5413B /* tvBonjour.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B06A0F951BD6CE2000E5413B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Johnson, Christopher P";
+				TargetAttributes = {
+					B06A0F9C1BD6CE2000E5413B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					B06A0FC11BD6CFE600E5413B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = B06A0F981BD6CE2000E5413B /* Build configuration list for PBXProject "xBonjourDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B06A0F941BD6CE2000E5413B;
+			productRefGroup = B06A0F9E1BD6CE2000E5413B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B06A0F9C1BD6CE2000E5413B /* xBonjourDemo */,
+				B06A0FC11BD6CFE600E5413B /* tvBonjour */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B06A0F9B1BD6CE2000E5413B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A0FAB1BD6CE2000E5413B /* LaunchScreen.storyboard in Resources */,
+				B06A0FA81BD6CE2000E5413B /* Assets.xcassets in Resources */,
+				B06A0FA61BD6CE2000E5413B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A0FC01BD6CFE600E5413B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A0FCC1BD6CFE600E5413B /* Assets.xcassets in Resources */,
+				B06A0FCA1BD6CFE600E5413B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B06A0F991BD6CE2000E5413B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A0FB51BD6CE6400E5413B /* BonjourServer.swift in Sources */,
+				B06A0FB91BD6CE8B00E5413B /* GCDAsyncSocket.m in Sources */,
+				B06A0FA31BD6CE2000E5413B /* ClientVC.swift in Sources */,
+				B06A0FD71BD6D51700E5413B /* Dot.swift in Sources */,
+				B06A0FBB1BD6CED900E5413B /* ServerVC.swift in Sources */,
+				B06A0FA11BD6CE2000E5413B /* AppDelegate.swift in Sources */,
+				B06A0FB31BD6CE5E00E5413B /* BonjourClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B06A0FBE1BD6CFE600E5413B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B06A0FD31BD6D0D200E5413B /* bonjour-demo-ios-bridging-header.h in Sources */,
+				B06A0FD41BD6D0D200E5413B /* GCDAsyncSocket.h in Sources */,
+				B06A0FD51BD6D0D200E5413B /* GCDAsyncSocket.m in Sources */,
+				B06A0FD21BD6D05200E5413B /* BonjourClient.swift in Sources */,
+				B06A0FD11BD6D04F00E5413B /* BonjourServer.swift in Sources */,
+				B06A0FC71BD6CFE600E5413B /* TvServerVC.swift in Sources */,
+				B06A0FC51BD6CFE600E5413B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B06A0FA41BD6CE2000E5413B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06A0FA51BD6CE2000E5413B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B06A0FA91BD6CE2000E5413B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06A0FAA1BD6CE2000E5413B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		B06A0FC81BD6CFE600E5413B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B06A0FC91BD6CFE600E5413B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B06A0FAD1BD6CE2000E5413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06A0FAE1BD6CE2000E5413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B06A0FB01BD6CE2000E5413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = xBonjourDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.chrisjohnson.xBonjourDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnsoncp2/Desktop/Projects/xBonjourDemo/xBonjourDemo/bonjour-demo-ios-bridging-header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B06A0FB11BD6CE2000E5413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				INFOPLIST_FILE = xBonjourDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.chrisjohnson.xBonjourDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnsoncp2/Desktop/Projects/xBonjourDemo/xBonjourDemo/bonjour-demo-ios-bridging-header.h";
+			};
+			name = Release;
+		};
+		B06A0FCF1BD6CFE600E5413B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvBonjour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.chrisjohnson.tvBonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnsoncp2/Desktop/Projects/xBonjourDemo/xBonjourDemo/bonjour-demo-ios-bridging-header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		B06A0FD01BD6CFE600E5413B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tvBonjour/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.chrisjohnson.tvBonjour;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/johnsoncp2/Desktop/Projects/xBonjourDemo/xBonjourDemo/bonjour-demo-ios-bridging-header.h";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B06A0F981BD6CE2000E5413B /* Build configuration list for PBXProject "xBonjourDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A0FAD1BD6CE2000E5413B /* Debug */,
+				B06A0FAE1BD6CE2000E5413B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B06A0FAF1BD6CE2000E5413B /* Build configuration list for PBXNativeTarget "xBonjourDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A0FB01BD6CE2000E5413B /* Debug */,
+				B06A0FB11BD6CE2000E5413B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B06A0FCE1BD6CFE600E5413B /* Build configuration list for PBXNativeTarget "tvBonjour" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B06A0FCF1BD6CFE600E5413B /* Debug */,
+				B06A0FD01BD6CFE600E5413B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B06A0F951BD6CE2000E5413B /* Project object */;
+}
