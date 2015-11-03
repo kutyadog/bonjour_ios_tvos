@@ -1,10 +1,8 @@
 //
 //  BonjourController.swift
-//  bonjour-demo-ios
-//  https://github.com/jameszaghini/bonjour-demo-osx-to-ios
-//  Created by James Zaghini on 12/05/2015.
-//  Copyright (c) 2015 James Zaghini. All rights reserved.
-//
+//  xBonjourDemo
+//  Created by Johnson, Christopher P on 10/20/15.
+//  Copyright © 2015 Johnson, Christopher P. All rights reserved.
 
 import UIKit
 

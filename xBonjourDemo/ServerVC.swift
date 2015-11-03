@@ -1,8 +1,9 @@
 //
 //  ViewController.swift
+//  xBonjourDemo
 //
-//  Created by James Zaghini on 6/05/2015.
-//  Copyright (c) 2015 James Zaghini. All rights reserved.
+//  Created by Johnson, Christopher P on 10/20/15.
+//  Copyright © 2015 Johnson, Christopher P. All rights reserved.
 //
 
 import UIKit

@@ -26,7 +26,7 @@ class ClientVC: UIViewController, BonjourClientDelegate {
         super.viewDidLoad()
         self.bonjourClient = BonjourClient()
         self.bonjourClient.delegate = self
-        onSayMeSomething("Hello Chris. How are you today?")
+        //onSayMeSomething("Hello Chris. How are you today?")
     }
     
     @IBAction func sendText() {
